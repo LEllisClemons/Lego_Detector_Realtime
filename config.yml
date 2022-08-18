@@ -1,0 +1,15 @@
+VIDEO:
+  vid_dir: '.\video'
+  sleep_time: 0.030  
+  vid_fps: 20
+  list_buffer_size: 20
+  vid_width: 224
+  vid_height: 224
+THREADS:
+  Prediction: True
+  EdgesSave: True
+VIDEO_SAVE:
+  video_frame_size: 400
+  enabled: true
+  fps: 20
+  save_dir: '.\edge_detect_video\'
